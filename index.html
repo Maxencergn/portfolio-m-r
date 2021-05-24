@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">M.R.</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__img">
+            <img class="home__img-class" src="assets/img/maxdrawpng.png" alt="" />
+          </div>
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Maxence,</span
+            ><br /><span
+              class="txt-rotate"
+              data-period="1000"
+              data-rotate='[ "Web developer.", "Video games player.", "Dj/producer." ]'
+            ></span>
+          </h1>
+
+          <a href="assets/img/Maxence Raingeonneau.pdf" class="button" download>CV Download</a>
+        </div>
+
+        <div class="home__social">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/maxence-raingeonneau-02a1a61ab/"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://github.com/Maxencergn"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/max2.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">Maxence, 28 ans, Nantes.</h2>
+            <p class="about__text">
+              Ancien électricien, c'est à travers deux amis developpeur que je découvre le code.<br /><br />
+              Tout de suite attiré par cet univers, j'ai commencé par apprendre
+              quelques notions d'HTML, CSS et Javascript en Auto Didacte.<br /><br />
+              Aujourd'hui, j'ai décidé de me lancer, plus motivé que jamais sur
+              une formation de développeur web Full-Stack à la Wild Code
+              School de Nantes.<br /><br />
+              C'est pourquoi, je suis actuellement à la recherche d'une première
+              expérience en stage pour continuer cette aventure et poursuivre
+              mon apprentissage...
+            </p>
+          </div>
+        </div>
+        <div class="formation-section">
+          <h2 class="section-title">Diplomes</h2>
+          <div class="row-formation">
+            <div class="block-formation">
+                <div class="rowleft">
+                  <h1>En cours...</h1>
+                </div>
+                <div class="rowright">
+                    <p>Etudiant Web devellopeur à la Wild Code School de Nantes</p>
+                  
+                </div>
+            </div>
+            <div class="block-formation">
+              <div class="rowleft">
+                <h1>Aout 2013</h1>
+              </div>
+              <div class="rowright">
+                  <p>Titre profession d'électricien au centre AFPA de Rochefort (17)</p>
+                
+              </div>
+            </div>
+        </div>
+        <div class="experiences-section">
+            <h2 class="section-title">Expériences</h2>
+            <div class="row-formation">
+              <div class="block-formation">
+                <div class="rowleft">
+                  <h1>Juin 2020 - Février 2021</h1>
+                </div>
+                <div class="rowright">
+                    <p>Cableur d'armoires Industrielles à Itecom (Nantes)</p>
+                  
+                </div>
+              </div>
+              <div class="block-formation">
+                  <div class="rowleft">
+                    <h1>Septembre 2019 - Mars 2020</h1>
+                  </div>
+                  <div class="rowright">
+                      <p>Micro-entreprise technicien réparateur matériel électronique</p>
+                    
+                  </div>
+              </div>
+            <div class="block-formation">
+              <div class="rowleft">
+                  <h1>2017 - 2019</h1>
+              </div>
+              <div class="rowright">
+                    <p>Electricien Optionneur dans l'industrie nautique</p>
+                  
+              </div>
+            </div>
+            <div class="block-formation">
+                <div class="rowleft">
+                  <h1>2014 - 2016</h1>
+                </div>
+                <div class="rowright">
+                  <p>Agent Technique en Camping</p>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <p class="skills__text">
+              Voici les différents outils et languages que j'apprend a maitriser.
+            </p>
+            <div class="img-skills">
+              <img class="skilss-img" src="assets/img/001-html-5.png" />
+              <img class="skilss-img" src="assets/img/002-css.png" />
+              <img class="skilss-img" src="assets/img/003-js.png" />
+              <img class="skilss-img" src="assets/img/reactlogo.png" />
+              <img class="skilss-img" src="assets/img/Gitlogo.png" />
+              <img class="skilss-img" src="assets/img/nodejs.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="container-work">
+          <div class="container-img-work">
+            <img src="./assets/img/bj1.png" alt="Avatar" class="image">
+            <a
+            target="_blank"
+            href="https://maxencergn.github.io/blackjackfinalversion/"
+            class="work-link"
+            >
+              <div class="overlay">
+                <div class="text">Petit jeu de blackjack réalisé en deux jours aprés 2 semaines de formations</div>
+              </div>
+            </a>
+          </div>
+          <div class="container-img-work">
+            <img src="./assets/img/appmeteo.png" alt="Avatar" class="image">
+            <a
+            target="_blank"
+            href="https://weathertday.netlify.app/"
+            class="work-link"
+            >
+              <div class="overlay">
+                <div class="text">Web app meteo réalisé avec React et Axios en utilisant l'API open weather map.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="container-img-work">
+            <img src="./assets/img/naotri.png" alt="Avatar" class="image">
+            <a
+            target="_blank"
+            href="https://naotri.netlify.app/"
+            class="work-link"
+            >
+              <div class="overlay">
+                <div class="text">Naotri est une web app mobile qui a pour but de rendre ludique le tri selectif a Nantes.
+                  Projet réalisé en 1 mois en groupe de 5.
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="container-img-work">
+            <img src="./assets/img/spacemeet.png" alt="Avatar" class="image">
+            <a
+            target="_blank"
+            href="https://space-meet.netlify.app/"
+            class="work-link"
+            >
+              <div class="overlay">
+                <div class="text">Spacemeet est une web app mobile réalisée à 4 dans le cadre d'un hackaton de 48h. C'est une application de rencontre déstinée aux habitants de l'univers.
+                </div>
+              </div>
+            </a>
+          </div>
+      </div>
+        
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="mailto:raingeonneau.m@gmail.com"
+                method="post"
+                enctype="multipart/form-data"
+                name="EmailForm"
+                class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="submit"
+              value="submit"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Maxence Raingeonneau</p>
+      <div class="footer__social">
+        <a
+            target="_blank"
+            href="https://www.linkedin.com/in/maxence-raingeonneau-02a1a61ab/"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://github.com/Maxencergn"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/typeanimation.js"></script>
+  </body>
+</html>
