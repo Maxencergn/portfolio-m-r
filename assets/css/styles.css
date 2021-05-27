@@ -233,9 +233,12 @@ a{
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
+  transition: 0.8s;
 }
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
+  background-color: rgba(64, 112, 244, 0.7);
+  transition: all 0.8s ease;
 }
 
 /* ===== ABOUT =====*/
@@ -256,6 +259,7 @@ a{
 .about__img img{
   width: 200px;
   border-radius: .5rem;
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
 /* ===== SKILLS =====*/
